@@ -1,0 +1,17 @@
+  .confirmation-message {
+    width: max-content;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-inline: auto;
+    margin-top:2rem;
+    box-shadow: 0px 5px 5px black;
+  }
+  
+  .confirmation-message h1 {
+    color: #333;
+  }
+  
+  .confirmation-message p {
+    font-size: 18px;
+  }

@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+<canvas style="inset: 0px; pointer-events: none; position: fixed; z-index: 1000000000;" width="683"
+    height="656"></canvas>
+<link type="text/css" rel="stylesheet" id="dark-mode-custom-link">
+<link type="text/css" rel="stylesheet" id="dark-mode-general-link">
+<style lang="en" type="text/css" id="dark-mode-custom-style"></style>
+<style lang="en" type="text/css" id="dark-mode-native-style"></style>
+<style lang="en" type="text/css" id="dark-mode-native-sheet"></style>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="theme-color" content="#111111">
+    <link rel="icon" href="/favicon.ico">
+    <title>Home Page</title>
+    <meta name="next-head-count" content="12">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
+
+</head>
+
+<body>
+    <div id="__next" data-reactroot="">
+        <div class="min-h-full w-full flex flex-col  smooth-scroll break-word"
+            style="font-family:Space Grotesk, sans-serif;font-weight:500">
+            <header class="sticky top-0 shadow-sm nav !z-max"
+                style="background-color: rgb(17, 17, 17); color: rgb(255, 255, 255);">
+                <div class="grid items-center lg:gap-6 xl:gap-10 mx-auto py-6 container"
+                    style="grid-template-columns:1fr 1fr 1fr">
+                    <div class="w-9 lg:w-auto">
+                        <ul class="lg:flex items-center gap-x-4 gap-y-2 flex-wrap hidden">
+                            <li>
+                                <a target="_blank" href="https://facebook.com/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+                                        width="24" height="24" class="w-8 h-8" style="color: rgb(255, 255, 255);">
+                                        <path fill-rule="evenodd"
+                                            d="M10.4375 21.8784C5.65941 21.1274 2 16.9877 2 12 2 6.48086 6.48086 2 12 2c5.5191 0 10 4.48086 10 10 0 4.9877-3.6594 9.1274-8.4375 9.8784v-6.9878h2.3301L16.3359 12h-2.7734v-1.8758c0-.79084.3874-1.5617 1.6296-1.5617h1.261V6.10156s-1.1443-.19531-2.2385-.19531c-2.2842 0-3.7771 1.38438-3.7771 3.89063V12H7.89844v2.8906h2.53906v6.9878Z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://instagram.com/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+                                        width="24" height="24" class="w-8 h-8" style="color: rgb(255, 255, 255);">
+                                        <path fill-rule="evenodd"
+                                            d="M12 2c5.5191 0 10 4.48086 10 10 0 5.5191-4.4809 10-10 10-5.51914 0-10-4.4809-10-10C2 6.48086 6.48086 2 12 2Zm0 3.75c-1.6974 0-1.9102.00719-2.57688.03762-.66523.03035-1.11957.13601-1.51714.29051-.41098.15972-.75953.37343-1.107.72089-.34746.34746-.56117.69602-.72089 1.107-.1545.39753-.26012.85187-.29051 1.5171C5.75719 10.0898 5.75 10.3026 5.75 12s.00719 1.9102.03758 2.5769c.03039.6652.13601 1.1195.29051 1.5171.15972.411.37343.7595.72089 1.107.34747.3475.69602.5612 1.107.7209.39757.1545.85191.2601 1.51714.2905.66668.0304.87948.0376 2.57688.0376s1.9102-.0072 2.5769-.0376c.6652-.0304 1.1195-.136 1.5171-.2905.411-.1597.7595-.3734 1.107-.7209.3475-.3475.5612-.696.7209-1.107.1545-.3976.2601-.8519.2905-1.5171.0304-.6667.0376-.8795.0376-2.5769 0-1.6974-.0072-1.9102-.0376-2.57688-.0304-.66523-.136-1.11957-.2905-1.5171-.1597-.41098-.3734-.75954-.7209-1.107s-.696-.56117-1.107-.72089c-.3976-.1545-.8519-.26016-1.5171-.29051C13.9102 5.75719 13.6974 5.75 12 5.75Zm0 1.12613c1.6688 0 1.8665.00637 2.5255.03645.6094.02781.9403.12961 1.1606.21519.2917.11336.4999.24883.7186.46754.2187.21867.3542.42692.4675.71864.0856.22023.1874.55113.2152 1.1605.0301.65905.0365.85675.0365 2.52555s-.0064 1.8665-.0365 2.5255c-.0278.6094-.1296.9403-.2152 1.1606-.1133.2917-.2488.4999-.4675.7186-.2187.2187-.4269.3542-.7186.4675-.2203.0856-.5512.1874-1.1606.2152-.6589.0301-.8566.0365-2.5255.0365s-1.8666-.0064-2.52555-.0365c-.60937-.0278-.94027-.1296-1.1605-.2152-.29176-.1133-.49997-.2488-.71868-.4675-.21871-.2187-.35414-.4269-.4675-.7186-.08558-.2203-.18742-.5512-.21523-1.1606-.03008-.659-.03641-.8567-.03641-2.5255s.00633-1.8665.03641-2.52555c.02781-.60937.12965-.94027.21523-1.1605.11336-.29172.24879-.49997.4675-.71864.21871-.21871.42692-.35418.71868-.46754.22023-.08558.55113-.18738 1.1605-.21519.65905-.03008.85675-.03645 2.52555-.03645Zm0 1.91442c-1.7725 0-3.20945 1.43695-3.20945 3.20945S10.2275 15.2095 12 15.2095s3.2095-1.437 3.2095-3.2095c0-1.7725-1.437-3.20945-3.2095-3.20945Zm0 5.29275c-1.1506 0-2.08332-.9327-2.08332-2.0833 0-1.1506.93272-2.08332 2.08332-2.08332S14.0833 10.8494 14.0833 12 13.1506 14.0833 12 14.0833Zm4.0863-5.41955c0 .41422-.3358.74996-.7501.74996-.4141 0-.7499-.33574-.7499-.74996s.3358-.75.7499-.75c.4143 0 .7501.33578.7501.75Z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://twitter.com/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+                                        width="24" height="24" class="w-8 h-8" style="color: rgb(255, 255, 255);">
+                                        <path
+                                            d="M22 5.92396c-.7352.32682-1.5265.54727-2.3567.64592.8477-.50748 1.4976-1.31133 1.8042-2.27026-.7929.47053-1.6707.81196-2.6057.99628C18.0936 4.49855 17.0271 4 15.8469 4c-2.2658 0-4.1029 1.83708-4.1029 4.10328 0 .32114.0362.63415.1064.93498-3.41027-.17132-6.43404-1.8046-8.45787-4.28719-.35321.60573-.55539 1.31052-.55539 2.06321 0 1.42338.72428 2.6795 1.8253 3.41512-.67231-.0215-1.30523-.2062-1.85859-.51355-.00041.01705-.00041.03451-.00041.05197 0 1.98768 1.41445 3.64578 3.29172 4.02328-.34427.0934-.70682.1437-1.08113.1437-.2647 0-.52169-.0255-.77219-.0738.52251 1.63 2.03764 2.8167 3.8329 2.8496-1.4043 1.1006-3.17317 1.7566-5.09591 1.7566-.33088 0-.6577-.0194-.97883-.0576 1.81637 1.1648 3.97296 1.8436 6.28991 1.8436 7.54769 0 11.67449-6.2522 11.67449-11.67451 0-.17782-.0037-.35524-.0114-.53143.8014-.57731 1.4973-1.30037 2.047-2.1233Z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex-1 flex flex-col items-center gap-4">
+                        <div class="flex justify-center w-full">
+                            <a href="/">
+                                <h1 class="text-h6 lg:text-h4 xl:text-h3 font-medium truncate"
+                                    style="color: #FFBE00; font-family: Space Grotesk, sans-serif; font-weight: 500;">
+                                    Mugasons Investment LTD
+                                </h1>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex justify-end">
+                        <div class="hidden lg:flex items-center flex-shrink-0">
+                            <a class="call-btn button primary xl !text-2xl !py-1.5" target="_self"
+                                style="background:#ffffff;border-radius:8px;color:#FFFFFF;color: #000000" href="">
+                                Call Us
+                            </a>
+                        </div>
+                        <div class="ml-auto lg:hidden">
+                            <button id="menu-btn"
+                                class="inline-flex items-center justify-center p-2 rounded-md focus:outline-none"
+                                style="color: rgb(255, 255, 255);">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24" width="24" height="24" class="block h-5 w-5" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                        d="M4 6h16M4 12h16M4 18h16"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="overflow-x-hidden">
+                <section class="flex-shrink-0 relative flex items-center min-h-120"
+                    style=" background-position: center center; background-size: cover;">
+                    <div id="hero" class="absolute inset-0"
+                        style="background-image: url(https://images.unsplash.com/photo-1593630987785-98139c5f3cc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyNjI5NjF8MHwxfHNlYXJjaHw2fHxDb25zdHJ1Y3Rpb24lMjBjb250cmFjdG9yfGVufDB8fHx8MTY3Nzg0Mjc4Ng&ixlib=rb-4.0.3&q=80&w=1080); ">
+                    </div>
+                    <div class="absolute inset-0" style="background-color: #0000007a;"></div>
+                    <div class="relative container mx-auto text-8xl">
+                        <div class="max-w-3xl text-center ml-auto mr-auto">
+                            <div class="logo max-w-250 object-cover">
+                                <img class="ml-auto w-100 mr-auto "
+                                    src="./media/Logos/fotor_2023-3-4_17_1_44.png" />
+                            </div>
+                            <p class="text-body md:text-body-lg xl:text-2xl"
+                                style="color: rgb(255, 255, 255); font-family: Space Grotesk, sans-serif; font-weight: 500; ">
+                                Mugasons Investment Limited is a construction contractor dedicated to elevating
+                                construction
+                                standards in the industry. We provide the highest quality craftsmanship, excellent
+                                project management,
+                                and up-to-date construction techniques. With our experienced staff and unparalleled
+                                commitment to
+                                customer service, we are committed to providing you with the best construction solutions
+                                available.
+                                Let us help you build your dream project.
+                            </p>
+                            <a id="contact-btn" class="button primary xl mb-8 cursor-pointer md:w-max" target="_self"
+                                style="background: rgb(0, 0, 0); border-radius: 8px; color: rgb(255, 255, 255); border: 2px solid rgb(79, 106, 147);">
+                                Contact Us
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section style="background-color:#333333" class="flex-shrink-0">
+                    <div class="w-full mx-auto">
+                        <div class="">
+                            <div class="relative overflow-hidden w-full h-60 md:h-80 lg:h-120 xl:h-150">
+                                <span
+                                    style="box-sizing:border-box;display:block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:absolute;top:0;left:0;bottom:0;right:0">
+                                    <img src="./media/works2.jpeg"
+                                        style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="flex-shrink-0" style="background-color: rgb(34, 34, 34);">
+                    <div
+                        class="container mx-auto pt-12 lg:pt-14 xl:pt-20 testimonials-carousel pb-12 lg:pb-14 xl:pb-20">
+                        <div class="flex h-full my-auto">
+                            <div class="max-w-5xl flex flex-col gap-4 justify-center text-center mx-auto items-center">
+                                <h3 class="text-xl lg:text-2xl xl:text-h3 !font-medium"
+                                    style="color: rgb(255, 255, 255); font-family: Space Grotesk, sans-serif; font-weight: 500;">
+                                    I have been working with Mugasons Investment Limited for a few months now and I am
+                                    pleasantly surprised by
+                                    their professionalism and efficiency. All of the work that they have done for me has
+                                    been beyond satisfactory
+                                    and I wouldn't hesitate to recommend them to anyone looking for a reliable
+                                    construction contractor in Kenya.
+                                </h3>
+                                <p class="text-sm lg:text-body xl:text-2xl" style="color: rgb(255, 255, 255);">-
+                                    Collins, Nairobi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="flex-shrink-0" style="background-color: rgb(51, 51, 51);">
+                    <div class="container mx-auto py-12 lg:py-14 xl:py-20">
+                        <div class="flex flex-col lg:flex-row w-full gap-10 lg:gap-20 items-center">
+                            <div class="flex-1 flex flex-col items-center lg:items-start">
+                                <div class="rich-text-block " style="color: rgb(255, 255, 255);">
+                                    <h1>Our Services</h1>
+                                    <ul>
+                                        <li>Earthworks</li>
+                                        <li>Residential Construction</li>
+                                        <li>Commercial Construction</li>
+                                        <li>Renovations & Remodeling</li>
+                                        <li>Project Management</li>
+                                        <li>Interior Design</li>
+                                        <li>Site Planning & Design</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="flex-1 w-full">
+                                <div class="flex-shrink-0 relative aspect-w-16 aspect-h-9">
+                                    <span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;">
+                                        <img alt="We provide high quality services" src="./media/works3.jpeg"
+                                            style="border-radius: 8px; position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="contact-form" class="flex-shrink-0" style="background-color: rgb(51, 51, 51);">
+                    <div class="container mx-auto py-12 lg:py-14 xl:py-20">
+                        <div class="flex flex-col w-full gap-10 lg:gap-20 lg:flex-row">
+                            <div class="w-full lg:w-1/2 lg:mt-10">
+                                <h2 class="text-body lg:text-2xl font-medium mb-2"
+                                    style="color: rgb(255, 255, 255); font-weight: 500;">
+                                    Mugasons Investment Limited Contact Form
+                                </h2>
+                                <p class="lg:leading-6" style="color: rgb(255, 255, 255);">
+                                    Fill out the form below to get in touch with Mugasons Investment Limited,
+                                    a professional construction contractor business based in Kenya.
+                                <p>
+                                    <i style="color: rgb(255, 255, 255);">
+                                        (Your information will be kept private)
+                                    </i>
+                                </p>
+                                </p>
+                            </div>
+                            <div class="w-full lg:w-1/2">
+
+                                <form id="form">
+                                    <div class="flex flex-col lg:flex-row gap-4 mb-4">
+                                        <div class="flex-1">
+                                            <label class="mb-1 text-label"
+                                                style="color: rgb(255, 255, 255);">Name</label>
+                                            <input type="text" required class="input name" placeholder="Your name..."
+                                                style="border-radius:8px">
+                                        </div>
+                                        <div class="flex-1">
+                                            <label class="mb-1 text-label"
+                                                style="color: rgb(255, 255, 255);">E-mail</label>
+                                            <input type="email" required class="input email"
+                                                placeholder="Valid email address..." style="border-radius:8px">
+                                        </div>
+                                    </div>
+                                    <div class="mb-4">
+                                        <label class="mb-1 text-label"
+                                            style="color: rgb(255, 255, 255);">Message</label>
+                                        <textarea class="input message" required placeholder="Write Something to us..."
+                                            rows="5" style="border-radius:8px"></textarea>
+                                    </div>
+                                    <div class="flex flex-col md:flex-row justify-between items-start gap-4">
+                                        <div class="text-xs max-w-sm text-gray-500" style="color: rgb(255, 255, 255);">
+                                            This site is protected by reCAPTCHA and the Google
+                                            <a target="_blank" class="font-bold" style="color: rgb(255, 255, 255);"
+                                                href="https://policies.google.com/privacy">
+                                                Privacy Policy
+                                            </a> and
+                                            <a target="_blank" class="font-bold" style="color: rgb(255, 255, 255);"
+                                                href="https://policies.google.com/terms">
+                                                Terms of Service</a> apply.
+                                        </div>
+                                        <button type="submit" class="button primary lg w-36 mt-2 md:mt-0"
+                                            style="background:#4F6A93;border-radius:8px;color:#FFFFFF;border:2px solid #4F6A93">
+                                            Send
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <section class="flex-shrink-0" style="background-color: rgb(34, 34, 34);">
+                    <div class="container mx-auto py-12 lg:py-14 xl:py-20">
+                        <div class="rich-text-block max-w-5xl text-right ml-auto mr-0"
+                            style="color: rgb(255, 255, 255);">
+                            <h3 style="white-space:pre-line">About us</h3>
+                            <p style="white-space:pre-line">
+                                Mugasons Investment Limited is a construction contractor business based in Kenya. We
+                                specialize in residential and commercial projects, including building and remodeling.
+                                Our team of experienced professionals has a wealth of knowledge and expertise in the
+                                industry, and we take great pride in our work. We strive to complete each project on
+                                time and to the highest standards of quality. Our commitment to excellence is reflected
+                                in the impressive portfolio of work that we have completed.
+                                At Mugasons Investment Limited, we believe that construction should be a collaborative
+                                process that involves comprehensive communication and problem-solving. Our team is
+                                always available to discuss your project and our services, ensuring that you are fully
+                                informed every step of the way. We take great care to ensure that your vision for the
+                                project is met. We also take safety very seriously, and we ensure that all of our
+                                projects are completed in accordance with the highest safety standards.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <footer class="flex-1" style="background-color: rgb(163, 211, 244); color: rgb(17, 24, 39);">
+                <div
+                    class="flex flex-col lg:flex-row items-center gap-12 lg:gap-3 container mx-auto py-12 lg:py-14 xl:py-20">
+                    <div class="flex-1 w-full lg:w-auto flex flex-col align-middle">
+                        <div class="mb-10 ml-auto mr-auto logo max-w-60 object-cover"
+                            style="border-radius: 50%; padding: 2rem; background-color: rgb(0, 0, 0); box-shadow: 0px 4px 10px;">
+                            <img class=""
+                                src="./media/Logos/fotor_2023-3-4_17_1_44.png" />
+                        </div>
+                        <h3 class="text-xl text-center lg:text-2xl xl:text-h3 mb-6"
+                            style="color:#111827;font-family:Space Grotesk, sans-serif;font-weight:500">
+                            Mugasons Investment Limited
+                        </h3>
+                        <div class="flex flex-col lg:flex-row gap-6 lg:gap-16"></div>
+                    </div>
+
+                    <div class="flex-1 w-full flex flex-col gap-12 lg:gap-6 justify-items-center">
+                        <span class="text-base lg:text-right">
+                            Website by 
+                            <a style="text-decoration: underline; color: crimson;" class="mylink" href="mailto:fredrickisaac142@email.com">
+                                iSAAC
+                            </a>
+                        </span>
+                        <div class="flex flex-col lg:flex-row items-start lg:items-center lg:justify-end gap-12 lg:gap-14 w-full lg:w-auto max-w-[100vw]">
+                            <ul class="flex flex-col lg:flex-wrap lg:flex-row lg:items-center gap-6" style="color:#111827">
+                                <li onclick="goHome" class="border-b-2 cursor-pointer" style="border-color:black">
+                                    <a class="block py-1.5 font-light" href="#">Home</a>
+                                </li>
+                            </ul>
+                            <ul class="flex items-center gap-x-7 lg:gap-x-4 gap-y-2 flex-wrap">
+                                <li>
+                                    <a target="_blank" href="https://facebook.com/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+                                            width="24" height="24" class="w-8 h-8" style="color:#111827">
+                                            <path fill-rule="evenodd"
+                                                d="M10.4375 21.8784C5.65941 21.1274 2 16.9877 2 12 2 6.48086 6.48086 2 12 2c5.5191 0 10 4.48086 10 10 0 4.9877-3.6594 9.1274-8.4375 9.8784v-6.9878h2.3301L16.3359 12h-2.7734v-1.8758c0-.79084.3874-1.5617 1.6296-1.5617h1.261V6.10156s-1.1443-.19531-2.2385-.19531c-2.2842 0-3.7771 1.38438-3.7771 3.89063V12H7.89844v2.8906h2.53906v6.9878Z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://instagram.com/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+                                            width="24" height="24" class="w-8 h-8" style="color:#111827">
+                                            <path fill-rule="evenodd"
+                                                d="M12 2c5.5191 0 10 4.48086 10 10 0 5.5191-4.4809 10-10 10-5.51914 0-10-4.4809-10-10C2 6.48086 6.48086 2 12 2Zm0 3.75c-1.6974 0-1.9102.00719-2.57688.03762-.66523.03035-1.11957.13601-1.51714.29051-.41098.15972-.75953.37343-1.107.72089-.34746.34746-.56117.69602-.72089 1.107-.1545.39753-.26012.85187-.29051 1.5171C5.75719 10.0898 5.75 10.3026 5.75 12s.00719 1.9102.03758 2.5769c.03039.6652.13601 1.1195.29051 1.5171.15972.411.37343.7595.72089 1.107.34747.3475.69602.5612 1.107.7209.39757.1545.85191.2601 1.51714.2905.66668.0304.87948.0376 2.57688.0376s1.9102-.0072 2.5769-.0376c.6652-.0304 1.1195-.136 1.5171-.2905.411-.1597.7595-.3734 1.107-.7209.3475-.3475.5612-.696.7209-1.107.1545-.3976.2601-.8519.2905-1.5171.0304-.6667.0376-.8795.0376-2.5769 0-1.6974-.0072-1.9102-.0376-2.57688-.0304-.66523-.136-1.11957-.2905-1.5171-.1597-.41098-.3734-.75954-.7209-1.107s-.696-.56117-1.107-.72089c-.3976-.1545-.8519-.26016-1.5171-.29051C13.9102 5.75719 13.6974 5.75 12 5.75Zm0 1.12613c1.6688 0 1.8665.00637 2.5255.03645.6094.02781.9403.12961 1.1606.21519.2917.11336.4999.24883.7186.46754.2187.21867.3542.42692.4675.71864.0856.22023.1874.55113.2152 1.1605.0301.65905.0365.85675.0365 2.52555s-.0064 1.8665-.0365 2.5255c-.0278.6094-.1296.9403-.2152 1.1606-.1133.2917-.2488.4999-.4675.7186-.2187.2187-.4269.3542-.7186.4675-.2203.0856-.5512.1874-1.1606.2152-.6589.0301-.8566.0365-2.5255.0365s-1.8666-.0064-2.52555-.0365c-.60937-.0278-.94027-.1296-1.1605-.2152-.29176-.1133-.49997-.2488-.71868-.4675-.21871-.2187-.35414-.4269-.4675-.7186-.08558-.2203-.18742-.5512-.21523-1.1606-.03008-.659-.03641-.8567-.03641-2.5255s.00633-1.8665.03641-2.52555c.02781-.60937.12965-.94027.21523-1.1605.11336-.29172.24879-.49997.4675-.71864.21871-.21871.42692-.35418.71868-.46754.22023-.08558.55113-.18738 1.1605-.21519.65905-.03008.85675-.03645 2.52555-.03645Zm0 1.91442c-1.7725 0-3.20945 1.43695-3.20945 3.20945S10.2275 15.2095 12 15.2095s3.2095-1.437 3.2095-3.2095c0-1.7725-1.437-3.20945-3.2095-3.20945Zm0 5.29275c-1.1506 0-2.08332-.9327-2.08332-2.0833 0-1.1506.93272-2.08332 2.08332-2.08332S14.0833 10.8494 14.0833 12 13.1506 14.0833 12 14.0833Zm4.0863-5.41955c0 .41422-.3358.74996-.7501.74996-.4141 0-.7499-.33574-.7499-.74996s.3358-.75.7499-.75c.4143 0 .7501.33578.7501.75Z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://twitter.com/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+                                            width="24" height="24" class="w-8 h-8" style="color:#111827">
+                                            <path
+                                                d="M22 5.92396c-.7352.32682-1.5265.54727-2.3567.64592.8477-.50748 1.4976-1.31133 1.8042-2.27026-.7929.47053-1.6707.81196-2.6057.99628C18.0936 4.49855 17.0271 4 15.8469 4c-2.2658 0-4.1029 1.83708-4.1029 4.10328 0 .32114.0362.63415.1064.93498-3.41027-.17132-6.43404-1.8046-8.45787-4.28719-.35321.60573-.55539 1.31052-.55539 2.06321 0 1.42338.72428 2.6795 1.8253 3.41512-.67231-.0215-1.30523-.2062-1.85859-.51355-.00041.01705-.00041.03451-.00041.05197 0 1.98768 1.41445 3.64578 3.29172 4.02328-.34427.0934-.70682.1437-1.08113.1437-.2647 0-.52169-.0255-.77219-.0738.52251 1.63 2.03764 2.8167 3.8329 2.8496-1.4043 1.1006-3.17317 1.7566-5.09591 1.7566-.33088 0-.6577-.0194-.97883-.0576 1.81637 1.1648 3.97296 1.8436 6.28991 1.8436 7.54769 0 11.67449-6.2522 11.67449-11.67451 0-.17782-.0037-.35524-.0114-.53143.8014-.57731 1.4973-1.30037 2.047-2.1233Z">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+
+    <div id="headlessui-portal-root" class="lg:hidden">
+        <div>
+            <div class="relative z-50 h-full hide" id="headlessui-dialog-1" role="dialog" aria-modal="true">
+                <div class="fixed inset-0 flex flex-col h-full" id="headlessui-dialog-panel-87"
+                    style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);">
+                    <div class="flex-1 flex flex-col h-full container mx-auto pb-6">
+                        <div class="items-center gap-3 py-6 grid" style="grid-template-columns: 1fr auto 1fr;">
+                            <div></div>
+                            <a href="/" tabindex="0">
+                                <h1 class="text-h6 lg:text-h4 xl:text-h3 font-medium max-w-60 md:max-w-100 truncate"
+                                    style="color: rgb(255, 255, 255); font-family: Space Grotesk, sans-serif; font-weight: 500;">
+                                    Mugasons Investment LTD
+                                </h1>
+                            </a>
+
+                            <div class="ml-auto lg:hidden">
+                                <button id="mob-menu-btn"
+                                    class="inline-flex items-center justify-center p-2 rounded-md focus:outline-none"
+                                    style="color: rgb(255, 255, 255);">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24" width="24" height="24" class="block h-5 w-5"
+                                        aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                            d="M6 18 18 6M6 6l12 12"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="flex flex-col max-w-[100vw] items-center h-full justify-center">
+                            <div class="logo max-w-100 object-cover">
+                                <img class="ml-auto w-100 mr-auto "
+                                    src="./media/Logos/fotor_2023-3-4_17_1_44.png" />
+                            </div>
+                            <ul class="flex items-center gap-x-4 gap-y-2 flex-wrap py-6">
+                                <li>
+                                    <a target="_blank" href="https://facebook.com/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+                                            width="24" height="24" class="w-8 h-8" style="color: rgb(255, 255, 255);">
+                                            <path fill-rule="evenodd"
+                                                d="M10.4375 21.8784C5.65941 21.1274 2 16.9877 2 12 2 6.48086 6.48086 2 12 2c5.5191 0 10 4.48086 10 10 0 4.9877-3.6594 9.1274-8.4375 9.8784v-6.9878h2.3301L16.3359 12h-2.7734v-1.8758c0-.79084.3874-1.5617 1.6296-1.5617h1.261V6.10156s-1.1443-.19531-2.2385-.19531c-2.2842 0-3.7771 1.38438-3.7771 3.89063V12H7.89844v2.8906h2.53906v6.9878Z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://instagram.com/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+                                            width="24" height="24" class="w-8 h-8" style="color: rgb(255, 255, 255);">
+                                            <path fill-rule="evenodd"
+                                                d="M12 2c5.5191 0 10 4.48086 10 10 0 5.5191-4.4809 10-10 10-5.51914 0-10-4.4809-10-10C2 6.48086 6.48086 2 12 2Zm0 3.75c-1.6974 0-1.9102.00719-2.57688.03762-.66523.03035-1.11957.13601-1.51714.29051-.41098.15972-.75953.37343-1.107.72089-.34746.34746-.56117.69602-.72089 1.107-.1545.39753-.26012.85187-.29051 1.5171C5.75719 10.0898 5.75 10.3026 5.75 12s.00719 1.9102.03758 2.5769c.03039.6652.13601 1.1195.29051 1.5171.15972.411.37343.7595.72089 1.107.34747.3475.69602.5612 1.107.7209.39757.1545.85191.2601 1.51714.2905.66668.0304.87948.0376 2.57688.0376s1.9102-.0072 2.5769-.0376c.6652-.0304 1.1195-.136 1.5171-.2905.411-.1597.7595-.3734 1.107-.7209.3475-.3475.5612-.696.7209-1.107.1545-.3976.2601-.8519.2905-1.5171.0304-.6667.0376-.8795.0376-2.5769 0-1.6974-.0072-1.9102-.0376-2.57688-.0304-.66523-.136-1.11957-.2905-1.5171-.1597-.41098-.3734-.75954-.7209-1.107s-.696-.56117-1.107-.72089c-.3976-.1545-.8519-.26016-1.5171-.29051C13.9102 5.75719 13.6974 5.75 12 5.75Zm0 1.12613c1.6688 0 1.8665.00637 2.5255.03645.6094.02781.9403.12961 1.1606.21519.2917.11336.4999.24883.7186.46754.2187.21867.3542.42692.4675.71864.0856.22023.1874.55113.2152 1.1605.0301.65905.0365.85675.0365 2.52555s-.0064 1.8665-.0365 2.5255c-.0278.6094-.1296.9403-.2152 1.1606-.1133.2917-.2488.4999-.4675.7186-.2187.2187-.4269.3542-.7186.4675-.2203.0856-.5512.1874-1.1606.2152-.6589.0301-.8566.0365-2.5255.0365s-1.8666-.0064-2.52555-.0365c-.60937-.0278-.94027-.1296-1.1605-.2152-.29176-.1133-.49997-.2488-.71868-.4675-.21871-.2187-.35414-.4269-.4675-.7186-.08558-.2203-.18742-.5512-.21523-1.1606-.03008-.659-.03641-.8567-.03641-2.5255s.00633-1.8665.03641-2.52555c.02781-.60937.12965-.94027.21523-1.1605.11336-.29172.24879-.49997.4675-.71864.21871-.21871.42692-.35418.71868-.46754.22023-.08558.55113-.18738 1.1605-.21519.65905-.03008.85675-.03645 2.52555-.03645Zm0 1.91442c-1.7725 0-3.20945 1.43695-3.20945 3.20945S10.2275 15.2095 12 15.2095s3.2095-1.437 3.2095-3.2095c0-1.7725-1.437-3.20945-3.2095-3.20945Zm0 5.29275c-1.1506 0-2.08332-.9327-2.08332-2.0833 0-1.1506.93272-2.08332 2.08332-2.08332S14.0833 10.8494 14.0833 12 13.1506 14.0833 12 14.0833Zm4.0863-5.41955c0 .41422-.3358.74996-.7501.74996-.4141 0-.7499-.33574-.7499-.74996s.3358-.75.7499-.75c.4143 0 .7501.33578.7501.75Z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://twitter.com/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+                                            width="24" height="24" class="w-8 h-8" style="color: rgb(255, 255, 255);">
+                                            <path
+                                                d="M22 5.92396c-.7352.32682-1.5265.54727-2.3567.64592.8477-.50748 1.4976-1.31133 1.8042-2.27026-.7929.47053-1.6707.81196-2.6057.99628C18.0936 4.49855 17.0271 4 15.8469 4c-2.2658 0-4.1029 1.83708-4.1029 4.10328 0 .32114.0362.63415.1064.93498-3.41027-.17132-6.43404-1.8046-8.45787-4.28719-.35321.60573-.55539 1.31052-.55539 2.06321 0 1.42338.72428 2.6795 1.8253 3.41512-.67231-.0215-1.30523-.2062-1.85859-.51355-.00041.01705-.00041.03451-.00041.05197 0 1.98768 1.41445 3.64578 3.29172 4.02328-.34427.0934-.70682.1437-1.08113.1437-.2647 0-.52169-.0255-.77219-.0738.52251 1.63 2.03764 2.8167 3.8329 2.8496-1.4043 1.1006-3.17317 1.7566-5.09591 1.7566-.33088 0-.6577-.0194-.97883-.0576 1.81637 1.1648 3.97296 1.8436 6.28991 1.8436 7.54769 0 11.67449-6.2522 11.67449-11.67451 0-.17782-.0037-.35524-.0114-.53143.8014-.57731 1.4973-1.30037 2.047-2.1233Z">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="py-6">
+                                <a class="call-btn button primary xl !font-normal !py-1.5" target="_self" href="#"
+                                    style="background: rgb(79, 106, 147); border-radius: 8px; color: #ffffff; border: 2px solid rgb(79, 106, 147);">
+                                    Call Us
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
