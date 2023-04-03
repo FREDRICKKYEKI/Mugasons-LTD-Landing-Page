@@ -7,10 +7,7 @@
     /* margin:2rem; */
     box-shadow: 0px 5px 5px black;
   }
-  
-  body{
 
-  }
 
   .confirmation-message h1 {
     color: #333;
@@ -19,10 +16,67 @@
   .confirmation-message p {
     font-size: 18px;
   }
+  
+  .project-div
+  {
+    transition: all .3s;
+    z-index: 5;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    transform: scale(.2);
 
-  @media only screen and (max-width:800px) {
-  .confirmation-message {
-    width: 100%;
   }
+  .project-div .main-project-header
+  {
+    opacity: 0;
+    text-align: center;
+  }
+
+  .outer-div:hover .project-div
+  {
+    transform: scale(1);
+  }
+
+  .project-div:hover
+  {
+    background: #000000da;
+  }
+ 
+  .project-div .text
+  {
+    opacity: 0;
+    transition: all .4s ease-in;
+    color: white;
+    max-width: 70%;
+    max-height: 100%;
+    transform: scale(1);
+  }
+
+  .project-div:hover .text
+  {
+    animation: pop 1 .3s ease-in;
+    opacity: 1;
+  }
+
+  @keyframes pop
+  {
+    0%{
+      transform:scale(.2);
+    }
+    70%{
+      transform:scale(1.3);
+    }
+    100%{
+      transform:scale(1);
+    }
+  }
+
+  @media only screen and (max-width:800px)
+  {
+    .confirmation-message {
+      width: 100%;
+    }
     
   }
